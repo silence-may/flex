@@ -22,3 +22,8 @@
     -webkit-box-flex: 1     /* OLD - iOS 6-, Safari 3.1-6 */  
     
     -moz-box-flex: 1;       /* OLD - Firefox 19- */       
+    
+## tips
+>  flex下的子元素必须为块级元素，非块级元素在android2.3机器下flex失效
+
+>  flex下的子元素宽度和高度不能超过父元素，否则会导致子元素定位错误，例如水平垂直居中
